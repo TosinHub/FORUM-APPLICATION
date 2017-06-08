@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ /* *{margin:0;
+ 	padding:0;
+ } */
+ 
+ 
+ #up{border:1px solid blue;
+ 	width:100%;
+	background:#06F;
+	height:50px;
+ }
+ 
+ #up p{color:#fff;
+ 	padding:3px;
+	text-align:center;
+	font-size:24px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	letter-spacing:3px;
+ }
+ 
+ #container{border:1px solid #09C; 
+            margin-left:10%;
+		    margin-right:10%;
+			height:700px;
+			margin-top:5px;
+			background-color:#069}
+
+
+#form{border:0px solid blue;
+		width:400px;
+		margin-left:10px;
+		margin-top:10px;
+		-moz-border-radius:15px;
+		background-color: #CCC;
+		/*position:relative;
+		left:45% */
+}
+
+	#text{border:0px solid blue;
+		width:500px;
+		margin-top:20%
+	}
+	
+	#text h1{color:#fff; font-family:"Arial Black", Gadget, sans-serif}
+	#text p{color:#CCC; 
+			letter-spacing:1px; 
+			font-family:Verdana, Geneva, sans-serif; font-size:12px;
+			padding:10px;}
+	
+	#form, #text{float:left}
+	
+	/**************************** Login Form ***********************************/
+	#login{border:0px solid blue;
+			width:360px;
+			margin-left:5px;
+			margin-top:5px;
+			padding:10px;
+			background-color:#fff;
+			-moz-border-radius:15px;
+	}
+	
+	#par{border:0px solid #F90;
+		width:100px;
+		height:30px;
+		text-align:center;
+		font-family:Arial, Helvetica, sans-serif;
+		letter-spacing:2px;
+		background-color: #006;
+		color:#fff;
+		text-align:center
+	}
+	
+	.note{color:#36F;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		letter-spacing:1px;
+	}
+	
+	.form1, .form2{color: #39F;
+		  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		  font-size:16px;
+		  letter-spacing:2px;
+		  margin-left:10px;
+	}
+	
+	
+	#login input[type="text"], #login input[type="password"], #signup input[type="text"], #signup input[type="password"]{height:10px;
+																padding:10px;
+																border:1px solid #39C;
+																
+															}
+															
+															
+	#login input[type="submit"], #signup input[type="submit"]{border:0px solid #39F;
+								width:150px;
+								height:35px;
+								margin-left:30%;
+								font-family: "Arial Black", Gadget, sans-serif;
+								font-size:16px;
+								padding:5px;
+								color:#fff;
+								letter-spacing:2px;
+								background-color:#39F;	
+								
+							}
+							
+	#login input[type="submit"]:hover, #signup input[type="submit"]:hover{background-color: #09C; cursor:pointer}
+	
+	/************************** login form *************************/
+	
+	
+	
+	#signup{border:0px solid blue;
+			width:360px;
+			margin-left:5px;
+			margin-top:5px;
+			margin-bottom:5px;
+			padding:10px;
+			background-color:#fff;
+			-moz-border-radius:15px;
+	}
+	
+	
+	hr{color:#39C; border:2px solid #39C;}
+	
+	
+	table{border-collapse:collapse; width:700px;}
+	
+	th{font-family:Tahoma, Geneva, sans-serif;
+	
+		color:#39C;
+		letter-spacing:1px;
+		padding:5px;
+	}
+	
+	td{color:#09F;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:14px;
+		padding:10px;
+		letter-spacing:1px;
+		word-spacing:2px;
+	}
+	
+	td:hover{background-color:#09F;
+	         color:#fff;
+	}
+	
+	td a:hover{background-color:#09F;
+	         color:#fff;
+			 text-decoration:none;
+	}
+	
+	
+	#par1{color:#39C;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:14px;
+		letter-spacing:2px;
+		word-spacing:1px;
+	}
+	
+	#par2{color:#06F;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:20px;
+		letter-spacing:2px;
+		width:400px;
+	}
+	
+	.error{color: #F00;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		letter-spacing:2px;
+	}
+	
+	textarea{color: #069;
+			padding:5px;
+			font-family:"Arial Black", Gadget, sans-serif;
+			font-size:14px;}
+			
+			
+	#tab a{color:#36C;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		letter-spacing:2px;
+	}
+	
+	#welcome{color:#39C;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:14px;
+			letter-spacing:2px;
+			word-spacing:1px;
+			line-height:150%;
+	}
+	
+	span{color:red; font-size:24px; font-family:Georgia, "Times New Roman", Times, serif}
